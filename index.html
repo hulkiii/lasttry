@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cutie😘</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <style>
+      #delayedButton {
+        display: none;
+        left: 133px;
+        /* display: block; */
+       position: absolute;
+       top: 287px;
+      }
+      a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+    </style>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        setTimeout(function () {
+          document.getElementById("delayedButton").style.display = "block";
+        }, 40000); // 20 seconds delay
+      });
+
+      // function redirectToGoogle() {
+      //   window.location.href = "https://hulkiii.github.io/finalone/";
+      // }
+      function redirectToCustomPath() {
+          // Assuming your project is in the root directory of the server
+          window.location.href = "/confirm.html";
+       }
+
+    </script>
+    <div class="bg_heart"></div>
+
+    <div class="container">
+      <h2 id="text1"></h2>
+    </div>
+    <audio controls autoplay  loop hidden>
+      
+         <source src="/firstsong.mp3" type="audio/mpeg">
+        Your browser does not support the video tag.
+    </audio>
+    <a href="/finalone/confirm.html" id="delayedButton">Click Me..!</a>
+
+    <!-- <button id="delayedButton" onclick="redirectToGoogle()">Click me!</button> -->
+    <script src="untoldcoding.js"></script>
+  </body>
+</html>
+
